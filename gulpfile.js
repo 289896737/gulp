@@ -1,20 +1,4 @@
-var gulp = require('gulp'),
-    runSequence = require('run-sequence'),
-    gulpif = require('gulp-if'),
-    uglify = require('gulp-uglify'),
-    less = require('gulp-less'),
-    csslint = require('gulp-csslint'),
-    rev = require('gulp-rev'),
-    minifyCss = require('gulp-minify-css'),
-    changed = require('gulp-changed'),
-    jshint = require('gulp-jshint'),
-    stylish = require('jshint-stylish'),
-    revCollector = require('gulp-rev-collector'),
-    minifyHtml = require('gulp-minify-html'),
-    autoprefixer = require('gulp-autoprefixer'),
-    del = require('del');
-    var uglify = require('gulp-uglify');
-    var amdOptimize = require("amd-optimize");
-    var concat = require('gulp-concat');
-    var eventStream = require("event-stream");
-    var order = require("gulp-order");
+var gulp = require('gulp');
+gulp.task('default',function(){
+    console.log('hello world');
+});
