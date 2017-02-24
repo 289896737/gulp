@@ -15,4 +15,5 @@ RUN export NODE_PATH=/usr/local/lib/node_modules
 RUN npm config set proxy=http://172.17.18.84:8080
 RUN npm config set https-proxy=http://172.17.18.84:8080
 RUN npm config set registry https://registry.npm.taobao.org
+RUN npm link gulp
 RUN gulp
